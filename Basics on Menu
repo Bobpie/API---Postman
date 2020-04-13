@@ -1,0 +1,22 @@
+NEW Menu
+
+New Menu help you to create certain components of PostMan. In which, basically you can create the following entities.
+  * Collection (Project -> Collection of folders/requests)
+  * Request (Transaction)
+  * Environment
+  
+  Collections:
+  Collections in postman is generally contains requests. It helps us organise the requests that we send or recieve to the API.  
+  Collection also capable of having folders/sub-folders to organise the requests.
+  
+  Request:
+  Request is the transaction, that we intract with the API for retrieving/writing data.
+  With my previous knowledge, the following type of requests are available.
+  
+  GET, POST, PUT, UPDATE, PATCH,....
+  
+  
+  So, Basically create a collection -> which is equivalent to create a project for writing code specific to one application.
+  
+  I have created a Collection and followed by a folder named incident. Here I am saving the requests that are belonging to the Incident module
+  
