@@ -1,0 +1,16 @@
+Request Menu:
+
+This menu helps us to modify the type of request/response that is made by us to the API. Here we can modify the requirement in the output type like xml, json, txt, html, etc. 
+
+And we can provide Authentication to the API through Auth Tab
+
+
+The list of tabs available in this menu is:
+
+1. Params
+2. Auth
+3. Headers
+4. Body
+5. Pre-req
+6. Tests
+7. Settings
