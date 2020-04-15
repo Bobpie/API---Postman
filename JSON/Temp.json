@@ -1,0 +1,282 @@
+{
+  "details": {
+    "body": "Entry level selenium users",
+    "parentId": -1,
+    "title": "Selenium Basic"
+  },
+  "id": 1
+}
+
+{
+  "details": {
+    "body": "Entry level selenium users",
+    "parentId": -1,
+    "title": "RPA"
+  },
+  "id": 50
+}
+
+RootElement.details.parentId - -1/
+RootElement.details.title -alp
+RootElement.id -uniq 
+RootElement.config.
+RootElement.exam[0].chapter = 'String'
+RootElement.exam[0].quiz[0]
+RootElement.exam[1].chapter ='Threading'
+    
+{
+  "config": {
+    "chapterCount": 2,
+    "criteria": 2,
+    "maxAttempt": 3,
+    "maxQuestions": 3,
+    "maxSeconds": 60,
+    "preTitle": -1,
+    "type": "exam"
+  },
+  "details": {
+    "body": "Mobile testing users can explore this",
+    "mock": "yes",
+    "parentId": 50,
+    "title": "RPA Basics"
+  },
+  "exam": [
+    {
+      "chapter": {
+        "maxQuestions": 1,
+        "title": "Threading"
+      },
+      "quiz": [
+        {
+          "answer": [
+            "D"
+          ],
+          "id": "t1",
+          "options": [
+            {
+              "text": "Chennai",
+              "value": "C"
+            },
+            {
+              "text": "Banglore",
+              "value": "B"
+            },
+            {
+              "text": "Delhi",
+              "value": "D"
+            }
+          ],
+          "question": "What is your city?",
+          "type": "radio"
+        },
+        {
+          "answer": [
+            "H"
+          ],
+          "id": "2",
+          "options": [
+            {
+              "text": "Cricket",
+              "value": "C"
+            },
+            {
+              "text": "Hockey",
+              "value": "H"
+            },
+            {
+              "text": "FootBall",
+              "value": "F"
+            }
+          ],
+          "question": "What is your fav. sports?",
+          "type": "radio"
+        }
+      ]
+    },
+    {
+      "chapter": {
+        "maxQuestions": 2,
+        "title": "chap2"
+      },
+      "quiz": [
+        {
+          "answer": [
+            "R",
+            "C"
+          ],
+          "id": "3",
+          "options": [
+            {
+              "text": "Rectangle",
+              "value": "R"
+            },
+            {
+              "text": "Circle",
+              "value": "C"
+            },
+            {
+              "text": "Square",
+              "value": "S"
+            }
+          ],
+          "question": "What is the shape of ball?",
+          "type": "checkbox"
+        },
+        {
+          "answer": [
+            "G",
+            "P"
+          ],
+          "id": "4",
+          "options": [
+            {
+              "text": "Blue",
+              "value": "B"
+            },
+            {
+              "text": "White",
+              "value": "W"
+            },
+            {
+              "text": "Purple",
+              "value": "P"
+            },
+            {
+              "text": "Green",
+              "value": "G"
+            }
+          ],
+          "question": "What is your fav. color?",
+          "type": "checkbox"
+        }
+      ]
+    }
+  ],
+  "id": 3,
+  "mock": [
+    {
+      "answer": [
+        "D"
+      ],
+      "id": "1",
+      "options": [
+        {
+          "text": "Chennai",
+          "value": "C"
+        },
+        {
+          "text": "Banglore",
+          "value": "B"
+        },
+        {
+          "text": "Delhi",
+          "value": "D"
+        }
+      ],
+      "question": "What is your (Mock)city?",
+      "type": "radio"
+    },
+    {
+      "answer": [
+        "H"
+      ],
+      "id": "2",
+      "options": [
+        {
+          "text": "Cricket",
+          "value": "C"
+        },
+        {
+          "text": "Hockey",
+          "value": "H"
+        },
+        {
+          "text": "FootBall",
+          "value": "F"
+        }
+      ],
+      "question": "What is your (Mock)fav. sports?",
+      "type": "radio"
+    },
+    {
+      "answer": [
+        "R",
+        "C"
+      ],
+      "id": "3",
+      "options": [
+        {
+          "text": "Rectangle",
+          "value": "R"
+        },
+        {
+          "text": "Circle",
+          "value": "C"
+        },
+        {
+          "text": "Square",
+          "value": "S"
+        }
+      ],
+      "question": "What is the (Mock)shape of ball?",
+      "type": "checkbox"
+    },
+    {
+      "answer": [
+        "G",
+        "P"
+      ],
+      "id": "51",
+      "options": [
+        {
+          "text": "Blue",
+          "value": "B"
+        },
+        {
+          "text": "White",
+          "value": "W"
+        },
+        {
+          "text": "Purple",
+          "value": "P"
+        },
+        {
+          "text": "Green",
+          "value": "G"
+        }
+      ],
+      "question": "What is your (Mock)fav. color?",
+      "type": "checkbox"
+    }
+  ],
+  "mockConfig": {
+    "criteria": 2,
+    "maxAttempt": 3,
+    "maxQuestions": 3,
+    "maxSeconds": 60
+  }
+}
+
+
+
+{
+  "config": {
+    "assessMinutes": 2,
+    "maxAttempt": 2,
+    "maxQuestions": 1,
+    "preTitle": 3,
+    "type": "assignment"
+  },
+  "details": {
+    "body": "Novice users to explore selenium",
+    "parentId": 1,
+    "title": "Selenium Advanced"
+  },
+  "exam": [
+    {
+      "id": "1",
+      "question": "What is your city?"
+    }
+  ],
+  "id": 5
+}
