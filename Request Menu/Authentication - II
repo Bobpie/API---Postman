@@ -1,0 +1,14 @@
+Basic Authentication:
+
+* This basically requires username and password for the authentication.
+* This is handled by HTTP Headers itself, so it doesnot require any handshake.
+* The limitation is that, unless you route the transaction through SSL, it will not be secure.  There may be a middle man breech to the API through COPY Cat HTTP header.
+* Also, if it routed through SSL, it will be slower in response time.  
+* {And even ignoring that, in its base form, HTTP is not encrypted in any way. It is encapsulated in base64, and is often erroneously proclaimed as encrypted due to this.}
+* {HTTP Basic Authentication does have its place. In an internal network, especially in IoT situations where speed is of no essence, having an HTTP Basic Authentication system is acceptable as a balance between cost of implementation and actual function. As a general authentication solution, however, HTTP Basic Authentication should be seldom used in its base form.}
+
+SSL: Secure Sockets Layer 
+
+
+
+
