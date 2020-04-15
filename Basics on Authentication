@@ -1,0 +1,22 @@
+Authentication: 
+* The processes of certifying the identity of users trying ento access resources on the server and this is what is known as API authentication.
+
+Authentication  vs Authorisation
+
+Authentication:
+
+* Authentication is a point which is bound to an user having access to access an API.  
+* Authentication is when an entity proves an identity.
+* In simple terms, authentication is like showing an access card to enter your work bay. It helps you to prove the identification of the user to the API.  
+
+Authorisation:
+
+* Authorization proves you have the right to make a request.
+* Authorization is when an entity proves a right to access.
+* In simple terms, which purchasing something online, you will be paying through your debit/credit card / UPI. There you will recieve an OTP to your mobile to authorise the transaction.  Even if you lost your card and if someone trying to use your card, he may not be able to continue without the OTP.  
+
+Different types of Authentication in API Testing:
+
+1. Basic HTTP Authorisation
+2. API Keys
+3. OAUTH
