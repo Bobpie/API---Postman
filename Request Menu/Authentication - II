@@ -1,3 +1,22 @@
+List of Auth available:
+
+1. Inherit from parent
+2. No Auth
+3. API Key
+4. Bearer Token
+5. Basic Auth
+6. Digest Auth
+7. OAuth 1.0
+8. OAuth 2.0
+9. Hawk Authentication
+10. AWS Signature
+11. NTLM Authentication (BETA)
+12. Akamal EdgeGrid
+
+No Auth:
+
+If the particular request or collection doesnot require any auth, then use No Auth
+
 Basic Authentication:
 
 * This basically requires username and password for the authentication.
@@ -8,6 +27,9 @@ Basic Authentication:
 * {HTTP Basic Authentication does have its place. In an internal network, especially in IoT situations where speed is of no essence, having an HTTP Basic Authentication system is acceptable as a balance between cost of implementation and actual function. As a general authentication solution, however, HTTP Basic Authentication should be seldom used in its base form.}
 
 SSL: Secure Sockets Layer 
+
+Note: These Auth is applicable in both request level as well as Collection level.  If you give the auth in the collection level, select the type of auth as Inherit from the parent option.  
+
 
 
 
