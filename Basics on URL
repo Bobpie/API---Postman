@@ -9,6 +9,13 @@ URL	Description
 /api/:coll/:id/:subcoll/:subid	The resource “subid” inside “subcoll”
 
 
+Components of a URL:
+Server:  Host name/ Port number where the API is hosted
+Port number:  Port number where the API is listening to (Default port number is 80)
+Resources: Simply the end point.  Contains the details about the API or the folder where I want to interact  
+
+
+
 
 Endpoint: 
 * An API endpoint is the point of entry in a communication channel when two systems are interacting.
