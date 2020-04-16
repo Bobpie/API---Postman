@@ -1,0 +1,82 @@
+JSON -> JavaScript Object Notation
+
+What is JSON?
+
+* JSON is a lightweight format for storing and transporting data
+* JSON is often used when data is sent from a server to a web page
+* JSON is "self-describing" and easy to understand
+
+JSON Syntax Rules
+-> Data is in name/value pairs
+-> Data is separated by commas
+-> Curly braces hold objects
+-> Square brackets hold arrays
+
+Note: The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text only. Code for reading and generating JSON data can be written in any programming language.
+
+* JSON Data - A Name and a Value
+
+Basically data in JSON is in the key value pair.  
+
+"name" : "Balaji"
+"designation" : "SDET"
+
+* JSON Objects
+
+Simple data within the curely braces or a set of data.
+Data in the Objects are separted by comma (,)
+
+{
+"name" : "Balaji",
+"designation" : "SDET"
+}
+
+* JSON Arrays
+JSON Arrays are the collection of objects in a single name. 
+JSON arrays are written inside square brackets.
+Objects in the Array are separted by comma (,)
+
+"employees": [
+  {
+    "name" : "Balaji",
+    "designation" : "SDET"
+  },
+  {
+  "name" : "Hari",
+  "designation" : "Manager"
+  }
+]
+
+Converting a JSON Text to a JavaScript Object
+
+First,
+
+Add the JSON value as a String into a variable and store it into a var
+
+var text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+Then use the command JSON.parse() function to parse the value as string
+
+var obj = JSON.parse(text);
+
+TIP:
+
+When sending data to a web server, the data has to be a string.
+
+Convert a JavaScript object into a string with JSON.stringify().
+
+
+
+
+
+
+
+
+
+
+
+
+
