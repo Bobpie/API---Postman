@@ -1,0 +1,28 @@
+What is Payload?
+
+When you send a request like GET to retrieve some data from the server, it will take the data that you specify for the request and response back to you! This pay load concept will come into the picture when you recieve and response.  
+
+When you get a response, basically it will give you three informations like Status code, Time ( in milliseconds ) and Size.  
+
+Status Code: 
+
+It is helps us to identify the status of the request placed to the API.  There are series of status code available to identify the status as below.  
+
+Status code                           Description
+100,101,...199                        Informational: Communicates the Transfer-Protocol level information.
+200,201,...299                        Success: It indicate that request is accepted.
+300,301,...399                        Redirectional: Client must take some additional actions to complete the request.
+400,401,...499                        Client Error: This category of error status codes points the finger at clients.
+500,501,...599                        Server Error: The server takes responsibility for these error status codes.
+
+We will learn about this a bit deeper later!
+
+
+Time: 
+
+Response time is the amount of time a system takes to react to a request once it has received one. For example, the time between the instant we execute an API and this API returns the result of its computation, that’s the response time.
+
+To Learn More About API Latency refer: https://medium.com/@sanjay.rajak/api-latency-vs-response-time-fe87ef71b2f2
+Have to Check about the tools for measuring Latency.
+
+
