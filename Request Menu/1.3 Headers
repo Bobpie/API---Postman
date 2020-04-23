@@ -1,0 +1,48 @@
+Headers:
+
+Headers are used to control the format of request and response.  
+
+Here is the list of headers available:
+
+1. Accept
+2. Accept-Charset
+3. Accept-Encoding
+4. Accept-Language
+5. Access-Control-Request-Headers
+6. Access-Control-Request-Method
+7. Authorization
+8. Cache-Control
+9. Content-MD5
+10. Content-Length
+11. Content-Transfer-Encoding
+12. Content-Type
+13. Cookie
+14. Cookie 2
+15. Date
+16. Expect
+17. From
+18. Host
+19. If-Match
+20. If-Modifed-Since
+21. If-None-Match
+22. If-Range
+23. If-Unmodified-Since
+24. Keep-Alive
+25. Max-Forwards
+26. Origin
+27. Pragma
+28. Proxy-Authorization
+29. Range
+30. Referer
+31. TE
+32. Trailer
+33. Transfer-Encoding
+34. Upgrade
+35. User-Agent
+36. Via
+37. Warning
+38. X-Requested-With
+39. X-Do-Not-Track
+40. DNT
+41. x-api-key
+42. Connection
