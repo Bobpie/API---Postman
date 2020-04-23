@@ -1,0 +1,20 @@
+Params:
+Params helps us in various factors in API Testing. Since I am learning phase, will update asap.
+
+Types of Params:
+1) Query Params
+2) Request Params
+3) Form Params
+4) Path Params
+
+Query Params:
+
+* It helps us filter the data in column wise.  you can customise your response as per your need and you can see that in the response board. 
+* It will be in key value pair and you can give a brief description about the filter that you have applied.  
+* Mostly, the API documentation will give you the key from which we can filter the params.
+* Values are the names of the columns that you want to see.  
+* Key in the Query params in unique. we cannot give it again. 
+* We can filter the row data using the key and value of each response in the next params
+* While you are filtering the rows, you can give 2 or more conditions to filter, but you can inclusively add the conditions. You will not be able to have a choice of condition
+* In nutshell, you can have and in between condition & you can not use or in between the conditions in Postman {} but can be achieved by Code REST.
+
