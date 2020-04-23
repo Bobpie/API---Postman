@@ -1,0 +1,62 @@
+Accept:
+Accept is response header, which helps the client to format the type of data that has to received from the server.
+Basically Server should have that type for response. For that, we need to refer the API Documnentation.  
+
+We can accept many type of Data from the Server.  We can find the major and minor sets of response types.
+
+1) Application / atom + xml - The name Atom applies to a pair of related Web standards. The Atom Syndication Format is an XML language used for web feeds, while the Atom Publishing Protocol (AtomPub or APP) is a simple HTTP-based protocol for creating and updating web resources.
+               / ecmascript - ECMAScript (or ES)[1] is a scripting-language specification standardized by Ecma International. It was created to standardize JavaScript to help foster multiple independent implementations. JavaScript has remained the most widely used implementation of ECMAScript since the standard was first published, with other implementations including JScript and ActionScript.[2] ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server applications and services using Node.js.
+               / json - JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+               / vnd.api + json
+               / javascript
+               / octet-stream
+               / ogg
+               / pdf
+               / postscript
+               / rdf + xml
+               / rss + xml
+               / soap + xml
+               / font-woff
+               / x-yaml
+               / xhtml + xml
+               / xml
+               / xml - dtd
+               / xop+xml
+               / zip
+               / gzip
+               / graphql
+               / x-www-form-urlencoded
+2) audio / basic
+         / L24
+         / mp4
+         / mpeg
+         / ogg
+         / vorbis
+         / vnd.rn-realaudio
+         / vnd.wave
+         / webm
+3) image / gif
+         / jpeg
+         / pjpeg
+         / png
+         / svg + xml
+         / tiff
+4) message / http
+           / imdn + xml
+           / partial
+           / rfc822
+5) multipart / mixed
+             / alternative
+             / related
+             / form-data
+             / signed
+             / encrypted
+6) text / cmd
+        / csv
+        / css
+        / html
+        / plain
+        / vcard
+        / xml
+        / 
+         
